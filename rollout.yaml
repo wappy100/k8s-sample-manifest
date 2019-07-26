@@ -1,6 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
+  name: nginx-rollout
   label:
     app: nginx-rollout
 spec:
